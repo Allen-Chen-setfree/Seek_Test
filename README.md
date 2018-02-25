@@ -1,4 +1,4 @@
 # Seek_Test
-Tech Stack: Selenium, Jenkins, Tomcat, Java, Junit
+Tech Stack: Selenium, Jenkins, Tomcat, Java, Junit, Maven
 
 This is to show a CI setup(Jenkins in Tomcat) to test Seek.com.au website using selenium with Java.
