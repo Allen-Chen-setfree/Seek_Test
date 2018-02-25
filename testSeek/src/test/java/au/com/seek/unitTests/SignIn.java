@@ -10,9 +10,8 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import au.com.seek.data.Constants;
 import au.com.seek.factory.DriverFactory;
-
-
 
 public class SignIn {
 	WebDriver driver;
@@ -25,7 +24,7 @@ public class SignIn {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
-		driver.get("https://www.seek.com.au/");
+		driver.get(Constants.URL);
 	}
 
 	@After
@@ -61,8 +60,6 @@ public class SignIn {
 		// Click "Sign Out"
 		driver.findElement(By.linkText("Sign Out")).click();
 
-        //assertTrue( true );
-		
 	}
 
 }
