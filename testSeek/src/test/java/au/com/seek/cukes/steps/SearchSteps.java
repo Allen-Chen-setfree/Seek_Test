@@ -56,10 +56,10 @@ public class SearchSteps {
 	public void click(String arg1) throws Throwable {
 		// Write code here that turns the phrase above into concrete actions
 
-		//driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div[2]/div/div[1]/section/div[1]/div/div/div[2]/span"))
-		//		.click();
-		//driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div[2]/div/div[1]/aside/div[1]/div/div/label[4]"))
-		//		.click();
+		// driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div[2]/div/div[1]/section/div[1]/div/div/div[2]/span"))
+		// .click();
+		// driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div[2]/div/div[1]/aside/div[1]/div/div/label[4]"))
+		// .click();
 
 		// throw new PendingException();
 	}
@@ -70,12 +70,12 @@ public class SearchSteps {
 		// <a href="/jobs-in-information-communication-technology?daterange=1#"
 		// data-automation="1" role="radio" aria-checked="true" aria-label="Today"
 		// class="_1tBsnbd" target="_self" rel="nofollow">Today</a>
-		//driver.findElement(By.xpath("//*[@id=\"RefineDateListed__radiogroup\"]/li[2]/a")).click();
-		//driver.findElement(By.linkText("Today")).click();
-		//driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div[2]/div/div[1]/aside/div[1]/div/div/label[4]"))
-		//.click();		
-		
-		//throw new PendingException();
+		// driver.findElement(By.xpath("//*[@id=\"RefineDateListed__radiogroup\"]/li[2]/a")).click();
+		// driver.findElement(By.linkText("Today")).click();
+		// driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div[2]/div/div[1]/aside/div[1]/div/div/label[4]"))
+		// .click();
+
+		// throw new PendingException();
 	}
 
 	@When("^I click \"([^\"]*)\"$")
@@ -90,7 +90,7 @@ public class SearchSteps {
 	public void i_get_the_search_results() throws Throwable {
 		// Write code here that turns the phrase above into concrete actions
 		System.out.print("the title of website is " + driver.getTitle());
-		// driver.close();
+		driver.close();
 		// throw new PendingException();
 	}
 
