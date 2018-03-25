@@ -43,6 +43,7 @@ public class SignIn {
 
 		// Click "Sign in"
 		driver.findElement(By.cssSelector("button.__STYLE_GUIDE__Button__root___1Gfy1qg:nth-child(1)")).click();
+		
 		// Click "Later"
 		driver.findElement(
 				By.xpath("/html/body/div[1]/div/main/div[2]/div/div/div[1]/div[2]/div/form/div[3]/button[2]")).click();
