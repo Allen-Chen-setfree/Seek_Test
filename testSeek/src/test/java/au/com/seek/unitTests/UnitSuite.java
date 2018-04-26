@@ -5,7 +5,8 @@ import org.junit.runners.Suite;
 
 	@RunWith(Suite.class)
 	@Suite.SuiteClasses({ 
-		SignIn.class,
+		Login.class,
+		//SignIn.class,
 		Search.class
 
 	})

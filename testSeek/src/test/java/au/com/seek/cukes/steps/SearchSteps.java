@@ -17,7 +17,7 @@ public class SearchSteps {
 	@Given("^that the homepage \"([^\"]*)\" is available$")
 	public void that_the_homepage_is_available(String URL) throws Throwable {
 		// Write code here that turns the phrase above into concrete actions
-		driver = DriverFactory.getBrowser("chrome");
+		driver = DriverFactory.getBrowser("Chrome");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);

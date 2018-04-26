@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 // @CucumberOptions(format = { "pretty", "html:target/cucumber-htmlreport",
 // "json-pretty:target/cucumber-report.json" })
 
-@CucumberOptions(features = "src/test/java/au/com/seek/cukes/features", glue = {
+@CucumberOptions(features = "src/test/java/au/com/seek/cukes/features/Search.feature", glue = {
 		"au.com.seek.cukes.steps" })
 
 public class Search {
