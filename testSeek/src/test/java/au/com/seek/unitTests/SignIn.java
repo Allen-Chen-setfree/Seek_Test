@@ -21,6 +21,9 @@ public class SignIn {
 	@Before
 	public void webInvoke() {
 		driver = DriverFactory.getBrowser("chrome");
+		//driver = DriverFactory.getBrowser("firefox");
+		//driver = DriverFactory.getBrowser("IE");
+		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
