@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = "src/test/java/au/com/seek/cukes/features/LogIn.feature", glue = {
 		"au.com.seek.cukes.steps" })
 
-public class Login {
+public class LogIn {
 
 }
 
